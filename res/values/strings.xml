@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProjectFinal</string>
+    <string name="title_activity_splash">ENG</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">Main</string>
+    <string name="text_home_version">version 1.0.0</string>
+    <string name="text_home1">Engineering RU</string>
+    <string name="faculty_of_eng">Faculty Of Engineering</string>
+    <string name="major">รายละเอียดวิชาเอก</string>
+    <string name="admission">รายละเอียดการรับสมัคร</string>
+    <string name="map">แผนที่</string>
+    <string name="contact_us">ติดต่อสอบถาม</string>
+    <string name="about_us">เกี่ยวกับผู้สร้าง app</string>
+    <string name="title_activity_about_us">About Us</string>
+    <string name="go_home">HOME</string>
+    <string name="title_activity_major">Major</string>
+    <string name="title_activity_admission">Admission</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_contact_us">Contact Us</string>
+    <string name="title_activity_civil">Civil</string>
+    <string name="title_activity_eee">Eee</string>
+    <string name="title_activity_ie">IE</string>
+    <string name="title_activity_eve">Eve</string>
+    <string name="title_activity_cpe">Cpe</string>
+    <string name="title_activity_cpe2">Cpe</string>
+    <string name="title_activity_civil2">Civil</string>
+    <string name="title_activity_eee2">Eee</string>
+    <string name="title_activity_eve2">Eve</string>
+    <string name="title_activity_ie2">IE</string>
+    <string name="text_auther">By Kittipong Pinta</string>
+    <string name="text_go_home_ad">HOME</string>
+
+</resources>

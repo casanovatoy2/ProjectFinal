@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.projectfinal"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.projectfinal.SplashActivity"
+            android:label="@string/title_activity_splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.projectfinal.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.projectfinal.AboutUsActivity"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+        <activity
+            android:name="com.projectfinal.MajorActivity"
+            android:label="@string/title_activity_major" >
+        </activity>
+        <activity
+            android:name="com.projectfinal.AdmissionActivity"
+            android:label="@string/title_activity_admission" >
+        </activity>
+        <activity
+            android:name="com.projectfinal.MapActivity"
+            android:label="@string/title_activity_map" >
+        </activity>
+        <activity
+            android:name="com.projectfinal.ContactUsActivity"
+            android:label="@string/title_activity_contact_us" >
+        </activity>
+        <activity
+            android:name="com.projectfinal.CivilActivity"
+            android:label="@string/title_activity_civil" >
+        </activity>
+        <activity
+            android:name="com.projectfinal.EeeActivity"
+            android:label="@string/title_activity_eee" >
+        </activity>
+        <activity
+            android:name="com.projectfinal.IeActivity"
+            android:label="@string/title_activity_ie" >
+        </activity>
+        <activity
+            android:name="com.projectfinal.EveActivity"
+            android:label="@string/title_activity_eve" >
+        </activity>
+        <activity
+            android:name="com.projectfinal.CpeActivity"
+            android:label="@string/title_activity_cpe" >
+        </activity>
+        <activity
+            android:name="com.projectfinal.Cpe2Activity"
+            android:label="@string/title_activity_cpe2" >
+        </activity>
+        <activity
+            android:name="com.projectfinal.Civil2Activity"
+            android:label="@string/title_activity_civil2" >
+        </activity>
+        <activity
+            android:name="com.projectfinal.Eee2Activity"
+            android:label="@string/title_activity_eee2" >
+        </activity>
+        <activity
+            android:name="com.projectfinal.Eve2Activity"
+            android:label="@string/title_activity_eve2" >
+        </activity>
+        <activity
+            android:name="com.projectfinal.Ie2Activity"
+            android:label="@string/title_activity_ie2" >
+        </activity>
+    </application>
+
+</manifest>

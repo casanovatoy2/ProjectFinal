@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/faculty_of_eng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="@string/faculty_of_eng"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/text_admission"
+        style="@style/ButtonText"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/major"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/red"
+        android:text="@string/admission"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/map"
+        style="@style/ButtonText"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/text_admission"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/red"
+        android:text="@string/map"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/contact_us"
+        style="@style/ButtonText"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/map"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/red"
+        android:text="@string/contact_us"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/major"
+        style="@style/ButtonText"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/faculty_of_eng"
+        android:background="@drawable/green"
+        android:text="@string/major"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/about_us"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/contact_us"
+        android:text="@string/about_us"
+        android:textColor="#848484"
+        android:textSize="20sp" />
+
+</RelativeLayout>
